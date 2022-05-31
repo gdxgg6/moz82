@@ -10,7 +10,7 @@ if os.path.exists(".env"):
 # Necessary Vars
 API_ID = int(os.getenv("API_ID", "6"))
 API_HASH = os.getenv("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-SUDO_USERS = int(os.getenv("SUDO_USERS", "10"))
+OWNER_ID = int(os.getenv("OWNER_ID", "10"))
 DOWN_PATH = os.getenv("./downloads")
 SESSION = os.getenv("SESSION")
 HNDLR = os.getenv("HNDLR", ".")
